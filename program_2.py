@@ -29,7 +29,7 @@ def categorize_age(age):
 if __name__ == '__main__':
     # Local variables
     # Get age from the user.
-    age = float(input("Enter the person's age: "))
+age = float(input("Enter the person's age: "))
     # Display the age
     ageBucket = categorize_age(age)
     print (ageBucket)
