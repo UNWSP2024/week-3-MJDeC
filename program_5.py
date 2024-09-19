@@ -12,6 +12,11 @@ peppers=float(input("Press 1 to add peppers to your dog. Else, press 0."))
 onions=float(input("For onions, press 1. Else, press 0."))
 you_idiot="Please enter a real menu selection, you idiot."
 
+dog_cost=0
+cheese_cost=0
+pepper_cost=0
+onion_cost=0
+
 #Determining user choice prices.
 if dog_type==1:
   dog_cost=3.50
